@@ -1,2 +1,18 @@
-# observability-prometheus
-Prometheus Observability project. More updates coming soon!
+# Observability Prometheus
+
+This repository contains a simple Go application that exposes metrics for Prometheus to scrape. It uses the prometheus/client_golang package to create and manage these metrics. The application simulates user activity and HTTP request handling, providing a realistic example of how to instrument a web service with Prometheus.
+
+![image](https://github.com/Gabrielm3/observability-prometheus/assets/48194646/436e4644-e303-4433-b35a-091d1cda92f6)
+
+
+## Usage
+
+After successful execution, you can use the **URL Shortner**. Simply open `http://localhost:8181` in your browser and enter the URL you want to shorten.
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have an enhancement, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
